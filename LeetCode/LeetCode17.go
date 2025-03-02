@@ -2,6 +2,7 @@ package LeetCode
 
 var MAP = []string{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
 
+// letterCombinations
 func letterCombinations(digits string) []string {
 	if len(digits) == 0 {
 		return []string{}
